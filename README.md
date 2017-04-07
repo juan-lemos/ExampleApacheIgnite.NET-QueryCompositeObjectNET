@@ -1,5 +1,5 @@
 # ExampleApacheIgniteQueryCompositeObjectNET
-Example of Apache Ignite where there is an object which have composite primary key in C#, and what to make the following query
+Example of Apache Ignite where there is an object which have composite primary key in C#, and want to make the following query
 ```C#
 new SqlFieldsQuery("select _val,_key from TestObject where NAME=? and VALUE=?", "h1","value1"); 
 ```
