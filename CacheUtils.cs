@@ -52,7 +52,7 @@ namespace testIgnite
                 TestObject testObject = new TestObject();
                 testObject.VALUE = "value1";
                 cache.Put(testObjectPK, testObject);
-                Console.WriteLine("==================I'm hear =====================================");
+                Console.WriteLine("==================I'm here =====================================");
                
                 
 
